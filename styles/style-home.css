@@ -1,3 +1,23 @@
-*{
-    background: #f1f1f1;
+* {
+  background: #f1f1f1;
+  font-family: "Comic Neue", cursive;
+  font-family: "Coming Soon", cursive;
+  font-family: "Enriqueta", serif;
+  font-family: "Fuzzy Bubbles", cursive;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+    display: grid;
+}
+
+.item {
+    margin: 0 auto;
+}
+
+.rodape {
+position:absolute;
+bottom: 0;
+width:90%;
+text-align: center;
 }
