@@ -24,8 +24,28 @@ No futuro o objetivo é fazer a migração dessa aplicação vanila em JavaScrip
 <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"/>
 </a>
   
-## onde queremos chegar 
+## Onde queremos chegar 
 
 ![Index](https://user-images.githubusercontent.com/72115747/145714370-cf5ec769-7bc5-47c6-97a0-b6438c4da1b8.png)
 ![Calculadora](https://user-images.githubusercontent.com/72115747/145714373-080b8a55-acf5-4162-a314-c4e1286a2e29.png)
 
+
+### Contate-me:
+
+    
+<a href="https://www.linkedin.com/in/mario-gabriel/" target="_blank">
+  <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
+</a>
+<a href="https://api.whatsapp.com/send?phone=5563984218043" target="_bank">
+  <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank">
+</a> 
+<a href="https://discord.gg/fjeU9hVjsk" target="_blank">
+  <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank">
+</a> 
+
+
+### Acompanhe esse desenvolvimento na:
+
+<a href="https://www.twitch.tv/eu_sou_o_mario" target="_bank">
+  <img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" target="_blank">
+</a>
