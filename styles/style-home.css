@@ -21,3 +21,18 @@ bottom: 0;
 width:90%;
 text-align: center;
 }
+
+.texto_conteudo {
+   color: black;
+   
+}
+
+.btn {
+    background: #F178B6;
+    width: 260px;
+    height: 60px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 15px;
+}
+
