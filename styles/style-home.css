@@ -1,38 +1,59 @@
 * {
   background: #f1f1f1;
-  font-family: "Comic Neue", cursive;
-  font-family: "Coming Soon", cursive;
-  font-family: "Enriqueta", serif;
+  /* font-family: 'Comic Neue', cursive;
+  font-family: 'Coming Soon', cursive;
+  font-family: 'Enriqueta', serif;
+  font-family: 'Roboto', sans-serif; */
   font-family: "Fuzzy Bubbles", cursive;
-  font-family: "Roboto", sans-serif;
 }
 
 .container {
-    display: grid;
+  display: grid;
 }
 
 .item {
-    margin: 0 auto;
+  margin: 0 auto;
+}
+.titulo_principal {
+    margin: 5px;
+    color: #8041D6;
+    font-size: 40px;
 }
 
-.rodape {
-position:absolute;
-bottom: 0;
-width:90%;
-text-align: center;
+.titulo_subTitulo {
+    margin-top: 5px;
+    color: #8041D6;
+    font-size: 34px;
+    align-items: center;
 }
 
 .texto_conteudo {
-   color: black;
-   
+  color: black;
+}
+
+.item.texto {
+  align-items: center;
+  font-size: 29px;
+  font-family: "Fuzzy Bubbles", cursive;
+
+  margin: 0px 20px;
 }
 
 .btn {
-    background: #F178B6;
-    width: 260px;
-    height: 60px;
-    margin-top: 20px;
-    border: none;
-    border-radius: 15px;
+  background: #f178b6;
+  width: 260px;
+  height: 60px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 15px;
+  font-size: 29px;
+  color: #fff;
+}
+
+.rodape {
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  text-align: center;
 }
 
