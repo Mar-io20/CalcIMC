@@ -1,0 +1,17 @@
+
+.cabecalhoPricipal .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cabecalhoPrincipal-titulo {
+  display: flex;
+}
+
+
+
+/*parte mobile*/
+@media(max-width: 768px) {
+  
+}
