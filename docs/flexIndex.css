@@ -1,5 +1,4 @@
-
-.cabecalhoPricipal .container{
+.cabecalhoPricipal .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -9,14 +8,28 @@
   display: flex;
 }
 
+.containerCP {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-between;
+}
 
 /*parte mobile*/
-@media(max-width: 768px) {
-  
-  .cabecalhoPricipal .container  {
+@media (max-width: 768px) {
+  .cabecalhoPricipal .container {
     flex-direction: column;
     align-items: center;
-    text-align: center;   
+    text-align: center;
   }
+
+  .textoSpan {
+    font-size: 30px;
+  }
+  .containerCP {
+    margin: 0 20%;
+    margin-top: 10%;
+  }
+  
 
 }

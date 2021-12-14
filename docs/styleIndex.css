@@ -14,3 +14,16 @@
 .cabecalhoPrincipal-nav-link {
   font-size: 35px;
 }
+
+.containerCP {
+  margin: 0 30%;
+  margin-top: 5%;
+}
+
+.textoSpan {
+  font-size: 40px;
+}
+
+.btn {
+  background: #f178b6;
+}
