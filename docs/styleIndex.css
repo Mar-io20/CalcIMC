@@ -1,17 +1,13 @@
 * {
-    background: #f1f1f1;
     font-family: "Comic Neue", cursive;
     font-family: "Coming Soon", cursive;
     font-family: "Enriqueta", serif;
     font-family: "Roboto", sans-serif;
     font-family: "Fuzzy Bubbles", cursive;
   }
-  body {
-    background: #000;
-  }
 
-  .container {
-      width: 94%;
-      margin: 0 auto;
+   .container {
+      width: 80%;
+      margin: 3% auto;
   }
-  
+ 
