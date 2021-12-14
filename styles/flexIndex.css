@@ -8,7 +8,9 @@
 .cabecalhoPrincipal-titulo {
   display: flex;
 }
-
+.conteudoPrincipal {
+  background: #000;
+}
 
 
 /*parte mobile*/
