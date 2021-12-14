@@ -1,13 +1,16 @@
 * {
-    font-family: "Comic Neue", cursive;
-    font-family: "Coming Soon", cursive;
-    font-family: "Enriqueta", serif;
-    font-family: "Roboto", sans-serif;
-    font-family: "Fuzzy Bubbles", cursive;
-  }
+  font-family: "Comic Neue", cursive;
+  font-family: "Coming Soon", cursive;
+  font-family: "Enriqueta", serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Fuzzy Bubbles", cursive;
+}
 
-   .container {
-      width: 80%;
-      margin: 3% auto;
-  }
- 
+.container {
+  width: 80%;
+  margin: 3% auto;
+}
+
+.cabecalhoPrincipal-nav-link {
+  font-size: 35px;
+}
