@@ -14,6 +14,10 @@
   align-items: center;
   justify-content: space-between;
 }
+.containerBtn {
+  display: flex;
+  flex-direction: column;
+}
 
 /*parte mobile*/
 @media (max-width: 768px) {
@@ -30,11 +34,13 @@
     margin: 0 20%;
     margin-top: 10%;
   }
-  
+
   .containerCP {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-
+  .btn {
+    margin-left: 0px;
+  }
 }

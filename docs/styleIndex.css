@@ -26,4 +26,12 @@
 
 .btn {
   background: #f178b6;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-left: 15%;
 }
