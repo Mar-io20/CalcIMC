@@ -1,61 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculadora</title>
-    <script src="../code/calculo.js "></script>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="../styles/style-calculadora.css" />
-  </head>
-  <body>
-    <header class="cabecalho">
-      <div class="text-center">
-        <a href="index.html">
-          <img
-            src="https://github.com/Mar-io20/CalcIMC/blob/main/midias/logo-png.png?raw=true"
-            alt="logo de um corção com um simolo de mais no meio"
-          />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="../code/calculo.js "></script>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="flexCalculadora.css">
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital@0;1&family=Coming+Soon&family=Enriqueta&family=Fuzzy+Bubbles:wght@700&family=Roboto:wght@300;400&display=swap");
+  </style>
+  <title>Calculadora</title>
+</head>
+
+<body>
+  <header class="cabecalhoPricipal">
+    <div class="container">
+      <a href="index.html">
+        <img src="https://github.com/Mar-io20/CalcIMC/blob/main/midias/logo-png.png?raw=true"
+          alt="logo de um corção com um simolo de mais no meio" />
+      </a>
+      <nav class="cabecalhoPrincipal-titulo">
+        <a href="index.html" class="cabecalhoPrincipal-nav-link">
+          Calculadora de IMC
         </a>
-      </div>
+      </nav>
+    </div>
+  </header>
 
-      <h1 class="text-center">Sua Saúde</h1>
-      <h2 class="text-center">Calcule o seu IMC</h2>
-    </header>
-
-    <form>
-      <div class="row">
-        <div class="form-group col-md-6">
-          <label for="inputEmail4">Qual o seu peso?</label>
-          <input
-            type="email"
-            class="form-control"
-            id="inputEmail4"
-            placeholder="Peso"
-          />
+  <main class="conteudoPrincipal">
+    <div class="containerCP">
+      <span class="textoSpan"> Para começar, responda</span>
+    </div>
+    <div class="formularioFlex">
+      <form action="resultadoCalculo.html" method="post">
+        <div class="labelFlex">
+          <div class="itemForm-1">
+            <label for="peso">Qual o seu peso?</label>
+            <input id="peso" type="text" name="Peso" placeholder="Peso" /><br />
+          </div>
+          <div class="itemForm-2">
+            <label for="altura"> Qual a sua altura?</label>
+            <input id="altura" type="text" name="Altura" placeholder="Altura" /><br />
+          </div>
         </div>
-        <div class="form-group col-md-6">
-          <label for="inputPassword4">Qual a sua altura</label>
-          <input
-            type="number"
-            class="form-control"
-            id="inputPassword4"
-            placeholder="Altura"
-          />
-        </div>
-      </div>
-    </form>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+        <div class="btnCalc">
+          <button class="btn" type="submit">Calcular</button>
+          <button class="btn" type="submit">O que é IMC?</button>
+        </div>
+      </form>
+    </div>
+    </div>
+  </main>
+</body>
+
 </html>

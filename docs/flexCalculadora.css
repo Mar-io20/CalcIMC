@@ -1,0 +1,88 @@
+/* ja esta pronto não dicar alterando */
+* {
+  font-family: "Fuzzy Bubbles", cursive;
+}
+.cabecalhoPricipal .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container {
+  width: 80%;
+  margin: 3% auto;
+}
+.cabecalhoPrincipal-nav-link {
+  font-size: 35px;
+}
+.containerCP {
+  margin: 0 10%;
+  margin-top: 5%;
+}
+
+.containerCP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.labelFlex {
+    margin: 2% auto;
+    display: flex;
+    justify-content: center;
+}
+.itemForm-1, .itemForm-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto 5%;
+}
+
+
+/* main */
+.conteudoPricipal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ja esta pronto não mecher */
+
+
+.textoSpan, label {
+  font-size: 3em;
+}
+
+input {
+    width: 200px;
+    height: 50px;
+}
+
+.btn {
+  background: #f178b6;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-left: 15%;
+}
+
+.btnCalc {
+    display: flex;
+}
+
+/* titulo mobile */
+
+@media (max-width: 768px) {
+  .cabecalhoPricipal .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .btnCalc {
+    display: flex;
+    flex-direction: column;
+  }
+}
