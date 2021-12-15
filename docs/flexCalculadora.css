@@ -74,7 +74,7 @@ input {
   margin-top: 30px;
 }
 
-.btnCalc {
+.containerBtn {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -83,13 +83,13 @@ input {
 
 /* titulo mobile */
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .cabecalhoPricipal .container {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-  .btnCalc {
+  .containerBtn {
     display: flex;
     flex-direction: column;
   }
@@ -104,7 +104,7 @@ input {
     position: relative;
     align-items: center;
   }
-  .btnCalc {
+  .containerBtn {
     flex-direction: column;
     text-align: center;
     align-items: center;
