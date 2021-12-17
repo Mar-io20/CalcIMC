@@ -1,0 +1,13 @@
+body {
+    background: lightgrey;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.container {
+    margin: auto 10%;
+    margin-top: -8px;
+    background: #fff;
+    width: 80%;
+}
