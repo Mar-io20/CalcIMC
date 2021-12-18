@@ -5,12 +5,11 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="../code/calculo.js "></script>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="flexCalculadora.css">
   <style>
     @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital@0;1&family=Coming+Soon&family=Enriqueta&family=Fuzzy+Bubbles:wght@700&family=Roboto:wght@300;400&display=swap");
-  </style>
+    </style>
   <title>Calculadora</title>
 </head>
 
@@ -19,7 +18,7 @@
     <div class="container">
       <a href="index.html">
         <img src="https://github.com/Mar-io20/CalcIMC/blob/main/midias/logo-png.png?raw=true"
-          alt="logo de um corção com um simolo de mais no meio" />
+        alt="logo de um corção com um simolo de mais no meio" />
       </a>
       <nav class="cabecalhoPrincipal-titulo">
         <a href="index.html" class="cabecalhoPrincipal-nav-link">
@@ -28,37 +27,35 @@
       </nav>
     </div>
   </header>
-
+  
   <main class="conteudoPrincipal">
     <div class="containerCP">
       <span class="textoSpan"> Informe </span>
     </div>
     <div class="formularioFlex">
-      <form action="resultadoCalculo.html" method="post">
+      <form method="post">
         <div class="labelFlex">
           <div class="itemForm-1">
             <label for="peso">Qual o seu peso?</label>
-            <input id="peso" type="text" name="Peso" placeholder=" Peso" /><br />
+            <input id="peso" type="number" name="Peso" placeholder=" Peso" /><br />
           </div>
           <div class="itemForm-2">
             <label for="altura"> Qual a sua altura?</label>
-            <input id="altura" type="text" name="Altura" placeholder=" Altura" /><br />
+            <input id="altura" type="number" name="Altura" placeholder=" Altura" /><br />
           </div>
         </div>
-
+        
+        
         <div class="containerBtn">
-          <button class="btn" type="submit">Calcular</button>
-          <button class="btn"><a href="oQueEimc/index.html"> O que é IMC?</a></button>
-        </div>
-      </form>
-      <div class="containerBtn">
-        <a href="indexCalculadora.html" rel="Faça o calculo do IMC aqui" type="button">
           <button class="btn">Calcular IMC</button>
-        </a>
-        <a href="oQueE/index.html" rel="o que é IMC?" type="button">
-          <button class="btn">O que é IMC?</button>
-        </a>
-    </div>
+          <button class="btnRuim">Calcular IMC</button>
+          <button class="btnBom">Calcular IMC</button>
+
+
+          <!-- <button class="btn">O que é IMC?</button> -->
+        </div>
+        <script src="../code/calculo.js "></script>
+      </form>
     </div>
   </main>
 </body>

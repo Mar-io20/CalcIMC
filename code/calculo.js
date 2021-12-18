@@ -1,8 +1,13 @@
-let peso = 100;
-let altura = 180;
-let resultado = 0;
+let peso = document.querySelector("#peso");
+let altura = document.querySelector("#altura");
+const btn = document.querySelector(".btn");
 
-resultado = 10000/(peso/(altura * altura))
+btn.addEventListener("click", (event) => {
+  event.preventDefault();
+  let valorPeso = Number(peso.value);
+  let valorAltura = Number(altura.value);
+  let imc = valorPeso / (valorAltura * valorAltura);
+  console.log(imc.toFixed(2));
 
-console.log(resultado)
 
+});
