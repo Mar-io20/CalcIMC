@@ -4,15 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="flexCalculadora.css" />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital@0;1&family=Coming+Soon&family=Enriqueta&family=Fuzzy+Bubbles:wght@700&family=Roboto:wght@300;400&display=swap");
     </style>
-    <link rel="stylesheet" href="styleIndex.css" />
-    <link rel="stylesheet" href="flexIndex.css" />
-    <link rel="stylesheet" href="reset.css" />
-    <script src="../code/calculo.js"></script>
-    <title>Calculzadora de IMC</title>
+    <title>Calculadora</title>
   </head>
+
   <body>
     <header class="cabecalhoPricipal">
       <div class="container">
@@ -24,26 +23,49 @@
         </a>
         <nav class="cabecalhoPrincipal-titulo">
           <a href="index.html" class="cabecalhoPrincipal-nav-link">
-            Sua saúde
+            Calculadora de IMC
           </a>
         </nav>
       </div>
     </header>
+
     <main class="conteudoPrincipal">
       <div class="containerCP">
-        <span class="textoSpan"
-          >Meus parabéns. O calulo do IMC é o primeiro passo para ter uma saúde
-          melhor.
-        </span>
+        <span class="textoSpan"> Informe </span>
+      </div>
+      <div class="formularioFlex">
+        <form>
+          <div class="labelFlex">
+            <div class="itemForm-1">
+              <label for="peso">Qual o seu peso?</label>
+              <input
+                id="peso"
+                type="number"
+                name="Peso"
+                placeholder=" Peso"
+              /><br />
+            </div>
+            <div class="itemForm-2">
+              <label for="altura"> Qual a sua altura?</label>
+              <input
+                id="altura"
+                type="number"
+                name="Altura"
+                placeholder=" Altura"
+              /><br />
+            </div>
+          </div>
+        </form>
         <div class="containerBtn">
-          <a href="calculadora/index.html" rel="Faça o calculo do IMC aqui" type="button">
+          <a href="../resultado/index.html">
             <button class="btn">Calcular IMC</button>
           </a>
-          <a href="./spinof/index.html" rel="o que é IMC?" type="button">
-            <button class="btn">O que é IMC?</button>
+          <a href="../spinof/index.html">
+            <button class="btn" src="resultado/index.html">O que é IMC?</button>
           </a>
         </div>
       </div>
     </main>
+    <script src="../code/calculo.js "></script>
   </body>
 </html>

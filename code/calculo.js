@@ -7,7 +7,11 @@ btn.addEventListener("click", (event) => {
   let valorPeso = Number(peso.value);
   let valorAltura = Number(altura.value);
   let imc = valorPeso / (valorAltura * valorAltura);
-  console.log(imc.toFixed(2));
+  const calculo = console.log(imc.toFixed(2));
+
+  let resultado = document.querySelector(".span");
+  resultado = calculo 
+  
 
 
 });
