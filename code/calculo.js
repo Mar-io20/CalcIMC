@@ -1,19 +1,14 @@
-//Selecionar o elemento da dom
-
-// const nameInput = document.querySelector("#name");
 const heigthInput = document.querySelector("#heigth");
 const weigthInput = document.querySelector("#weigth");
 const submitButton = document.querySelector("#submit-button");
 const messageImc = document.querySelector(".message");
 
-// Adicionar Evento no click do button
 submitButton.addEventListener("click", (event) => {
   event.preventDefault();
-  // const nameValue = nameInput.value;
   const heigthValue = heigthInput.value / 100;
   const weigthValue = weigthInput.value;
 
-  if (/*nameValue === "" || */ heigthValue === "" || weigthValue === "") {
+  if ( heigthValue === "" || weigthValue === "") {
     alert("Preencha todos os campos");
     return;
   }
@@ -37,7 +32,6 @@ submitButton.addEventListener("click", (event) => {
     }
 
     messageImc.innerHTML = message;
-    // nameInput.value = "";
     heigthInput.value = "";
     weigthInput.value = "";
     return;
