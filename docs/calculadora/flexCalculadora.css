@@ -30,8 +30,8 @@
   display: flex;
   justify-content: center;
 }
-.itemForm-1,
-.itemForm-2 {
+
+.input-text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
