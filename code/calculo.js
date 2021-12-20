@@ -1,6 +1,7 @@
 let peso = document.querySelector("#peso");
 let altura = document.querySelector("#altura");
 const btn = document.querySelector(".btn");
+const messageImc = document.querySelector(".message");
 
 btn.addEventListener("click", (event) => {
   event.preventDefault();
@@ -12,6 +13,4 @@ btn.addEventListener("click", (event) => {
   let resultado = document.querySelector(".span");
   resultado = calculo 
   
-
-
 });
