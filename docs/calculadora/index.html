@@ -17,55 +17,33 @@
       <div class="container">
         <a href="index.html">
           <img
-            src="https://github.com/Mar-io20/CalcIMC/blob/main/midias/logo-png.png?raw=true"
+            src="../../img/logo-png.png"
             alt="logo de um corção com um simolo de mais no meio"
           />
         </a>
         <nav class="cabecalhoPrincipal-titulo">
           <a href="index.html" class="cabecalhoPrincipal-nav-link">
-            Calculadora de IMC
+            Calcular IMC
           </a>
         </nav>
       </div>
     </header>
 
-    <main class="conteudoPrincipal">
-      <div class="containerCP">
-        <span class="textoSpan"> Informe </span>
-      </div>
-      <div class="formularioFlex">
-        <form>
-          <div class="labelFlex">
-            <div class="itemForm-1">
-              <label for="peso">Qual o seu peso?</label>
-              <input
-                id="peso"
-                type="number"
-                name="Peso"
-                placeholder=" Peso"
-              /><br />
-            </div>
-            <div class="itemForm-2">
-              <label for="altura"> Qual a sua altura?</label>
-              <input
-                id="altura"
-                type="number"
-                name="Altura"
-                placeholder=" Altura"
-              /><br />
-            </div>
-          </div>
-        </form>
-        <div class="containerBtn">
-          <a href="../resultado/index.html">
-            <button class="btn">Calcular IMC</button>
-          </a>
-          <a href="../spinof/index.html">
-            <button class="btn" src="resultado/index.html">O que é IMC?</button>
-          </a>
+    <section class="container">
+      <form id="my-form">
+        <div class="input-text">
+          <label for="heigth">Digite sua altura</label>
+          <input class="name-style" type="number" id="heigth" placeholder="Altura" />
         </div>
-      </div>
-    </main>
-    <script src="../code/calculo.js "></script>
+        <div class="input-text">
+          <label for="weigth">Digite o seu peso</label>
+          <input class="name-style" type="number" id="weigth" placeholder="Peso"/>
+        </div>
+        <input type="submit" value="Submit" id="submit-button" class="btn"/>
+      </form>
+      <p class="message"></p>
+    </section>
+
+    <script src="../../code/calculo.js"></script>
   </body>
 </html>
