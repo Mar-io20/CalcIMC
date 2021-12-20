@@ -30,16 +30,20 @@
     </header>
 
     <section class="container">
-      <form class="my-form">
+      <form id="my-form">
         <div class="input-text">
-          <label for="height"> Qual a sua altura?</label>
-          <input class="height-style" type="number" id="height" />
+          <label for="name">Nome:</label>
+          <input class="name-style" type="text" id="name" />
         </div>
-        <div class="input-height">
-          <label for="weight">Qual o seu peso?</label>
-          <input class="height-style" type="number" id="weight" />
+        <div class="input-text">
+          <label for="heigth">Altura:</label>
+          <input class="name-style" type="number" id="heigth" />
         </div>
-          <button src="../resultado/index.html"><input class="btn" type="submit" value="Submit" id="submit-button"/></button>
+        <div class="input-text">
+          <label for="weigth">Peso:</label>
+          <input class="name-style" type="number" id="weigth" />
+        </div>
+        <input type="submit" value="Submit" id="submit-button" class="btn" />
       </form>
       <p class="message"></p>
     </section>
