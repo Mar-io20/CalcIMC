@@ -11,7 +11,4 @@ btn.addEventListener("click", (event) => {
 
   let resultado = document.querySelector(".span");
   resultado = calculo 
-  
-
-
 });
