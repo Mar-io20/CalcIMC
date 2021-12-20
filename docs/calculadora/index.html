@@ -1,61 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="flexCalculadora.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital@0;1&family=Coming+Soon&family=Enriqueta&family=Fuzzy+Bubbles:wght@700&family=Roboto:wght@300;400&display=swap");
+    </style>
+    <title>Calculadora</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="reset.css" />
-  <link rel="stylesheet" href="flexCalculadora.css" />
-  <style>
-    @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital@0;1&family=Coming+Soon&family=Enriqueta&family=Fuzzy+Bubbles:wght@700&family=Roboto:wght@300;400&display=swap");
-  </style>
-  <title>Calculadora</title>
-</head>
-
-<body>
-  <header class="cabecalhoPricipal">
-    <div class="container">
-      <a href="index.html">
-        <img src="../../img/logo-png.png" alt="logo de um corção com um simolo de mais no meio" />
-      </a>
-      <nav class="cabecalhoPrincipal-titulo">
-        <a href="index.html" class="cabecalhoPrincipal-nav-link">
-          Calculadora de IMC
+  <body>
+    <header class="cabecalhoPricipal">
+      <div class="container">
+        <a href="index.html">
+          <img
+            src="../../img/logo-png.png"
+            alt="logo de um corção com um simolo de mais no meio"
+          />
         </a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="conteudoPrincipal">
-    <div class="containerCP">
-      <span class="textoSpan"> Informe </span>
-    </div>
-    <div class="formularioFlex">
-      <form>
-        <div class="labelFlex">
-          <div class="input-text">
-            <label for="heigth">Qual o seu peso?</label>
-            <input id="heigth" type="number" placeholder=" Peso" /><br />
-          </div>
-          <div class="input-text">
-            <label for="weigth"> Qual a sua altura?</label>
-            <input id="weigth" type="number" placeholder=" Altura" /><br />
-          </div>
-        </div>
-      </form>
-      
-      <div class="containerBtn">
-        <a href="../resultado/index.html">
-          <input type="submit" value="Submit" id="submit-button" class="btn" />
-        </a>
-        <a href="../spinof/index.html">
-          <button class="btn" src="resultado/index.html">O que é IMC?</button>
-        </a>
+        <nav class="cabecalhoPrincipal-titulo">
+          <a href="index.html" class="cabecalhoPrincipal-nav-link">
+            Calcular IMC
+          </a>
+        </nav>
       </div>
-    </div>
-  </main>
-  <script src="../code/calculo.js "></script>
-</body>
+    </header>
 
+    <section class="container">
+      <form class="my-form">
+        <div class="input-text">
+          <label for="height"> Qual a sua altura?</label>
+          <input class="height-style" type="number" id="height" />
+        </div>
+        <div class="input-height">
+          <label for="weight">Qual o seu peso?</label>
+          <input class="height-style" type="number" id="weight" />
+        </div>
+          <button src="../resultado/index.html"><input class="btn" type="submit" value="Submit" id="submit-button"/></button>
+      </form>
+      <p class="message"></p>
+    </section>
+
+    <script src="../../code/calculo.js"></script>
+  </body>
 </html>
