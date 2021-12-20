@@ -19,7 +19,7 @@ submitButton.addEventListener("click", (event) => {
   }
 
   function calculaImc(weigth, heigth) {
-    const data = weigth / (heigth * heigth);
+    const data = (weigth / (heigth * heigth)) / 10000;
     const total = data.toFixed(2);
 
     let message;
