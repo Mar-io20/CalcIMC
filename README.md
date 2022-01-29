@@ -4,7 +4,7 @@ Uma calculadora vanila de IMC
 
 ## O objetivo 
 
-O objetivo de desse projeto é criar uma calculadora sinples que rescebe dois valores, entrega o resultado do calculo de IMC
+O objetivo de desse projeto é criar uma calculadora simples que recebe dois valores, entrega o resultado do cálculo de IMC
 
 ## O que estamos usando nesse projeto? 
 
