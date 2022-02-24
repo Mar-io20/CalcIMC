@@ -26,10 +26,12 @@ No futuro o objetivo é fazer a migração dessa aplicação vanila em JavaScrip
   
 ## Onde queremos chegar 
 
-<a href="https://www.figma.com/file/GrHGNm7asuGYTP8eZdH9yM/Sua-Sa%C3%BAde?node-id=0%3A1">
-<img src="https://user-images.githubusercontent.com/72115747/145714370-cf5ec769-7bc5-47c6-97a0-b6438c4da1b8.png">
-<img src="https://user-images.githubusercontent.com/72115747/145714373-080b8a55-acf5-4162-a314-c4e1286a2e29.png">
-</a>
+<div align='center'>
+  <a href="https://www.figma.com/file/GrHGNm7asuGYTP8eZdH9yM/Sua-Sa%C3%BAde?node-id=0%3A1">
+    <img src="https://user-images.githubusercontent.com/72115747/145714370-cf5ec769-7bc5-47c6-97a0-b6438c4da1b8.png" width="200" />
+    <img src="https://user-images.githubusercontent.com/72115747/145714373-080b8a55-acf5-4162-a314-c4e1286a2e29.png" width="200" />
+  </a>
+</div>
 
 ### Contate-me:
   
